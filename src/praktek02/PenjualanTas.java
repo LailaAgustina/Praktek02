@@ -7,6 +7,13 @@ public class PenjualanTas {
         hrgtas=250000;
         jmlbeli=4;
     }
+
+    public PenjualanTas(int hrgtas, int jmlbeli) {
+        this.hrgtas = hrgtas;
+        this.jmlbeli = jmlbeli;
+    }
+    
+    
   
   void cetakInfo(){
      System.out.println("=====================");

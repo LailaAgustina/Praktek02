@@ -8,5 +8,12 @@ public class PenjualanTasAksi {
         r1.cetakInfo();
         System.out.println("Total PenjualanTas = "+r1.hitungTotal());
         r1.cetakTotal();
+        
+        
+        PenjualanTas r2 = new PenjualanTas();
+        r2.cetakInfo();
+        
+        PenjualanTas r3 = new PenjualanTas(300000,2);
+        r3.cetakInfo();
     }
 }
