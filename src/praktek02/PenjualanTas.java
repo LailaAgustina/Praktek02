@@ -2,6 +2,11 @@ package praktek02;
 public class PenjualanTas {
   int hrgtas;
   int jmlbeli;
+
+    public PenjualanTas() {
+        hrgtas=250000;
+        jmlbeli=4;
+    }
   
   void cetakInfo(){
      System.out.println("=====================");
