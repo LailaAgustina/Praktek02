@@ -15,4 +15,8 @@ public class PenjualanTas {
       total=hrgtas*jmlbeli;
       return total;
   }
+  
+  void cetakTotal(){
+      System.out.println("Total PenjualanTas = "+hitungTotal());
+  }
 }
