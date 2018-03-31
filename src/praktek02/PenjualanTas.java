@@ -9,4 +9,10 @@ public class PenjualanTas {
      System.out.println("jmlbeli  : "+jmlbeli);
      System.out.println("=====================");
   }
+  
+  int hitungTotal(){
+      int total;
+      total=hrgtas*jmlbeli;
+      return total;
+  }
 }

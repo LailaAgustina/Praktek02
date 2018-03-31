@@ -6,6 +6,6 @@ public class PenjualanTasAksi {
         r1.jmlbeli = 3;
         
         r1.cetakInfo();
-        
+        System.out.println("Total PenjualanTas = "+r1.hitungTotal());
     }
 }
