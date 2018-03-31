@@ -4,5 +4,8 @@ public class PenjualanTasAksi {
         PenjualanTas r1 = new PenjualanTas();
         r1.hrgtas = 150000;
         r1.jmlbeli = 3;
+        
+        r1.cetakInfo();
+        
     }
 }
